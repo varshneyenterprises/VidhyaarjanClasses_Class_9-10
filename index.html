@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 <!-- WhatsApp & Social Media Preview Meta Tags -->
-<meta property="og:title" content="Vidhyaarjan Classes | Discover Your Child's Hidden Einstein" />
+<meta property="og:title" content="Vidhyaarjan Classes | Discover Your Child's Hidden Einstein"/>
 <meta property="og:description" content="Attend our complimentary Cognitive Diagnostic Assessment for Class 9 & 10. Uncover your child's core learning style and help them confidently excel in Math & Science."/>
-<meta property="og:image" content="https://raw.githubusercontent.com/varshneyenterprises/OhNotoAhaClass-9-10/main/1.png" />
+<meta property="og:image" content="https://github.io" />
 <meta property="og:type" content="website" />
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -44,17 +44,17 @@ h1,h2,h3{font-family:'Playfair Display',serif;line-height:1.25}
 .trust-num span{font-size:0.9rem;color:#9fe1cb}
 .trust-label{font-size:clamp(10px,1vw,12px);color:#94a3b8;margin-top:3px}
 
-/* ── HEADER ── */
+/* ── HEADER (FIXED FOR MOBILE) ── */
 header{background:var(--white);border-bottom:1px solid var(--border);padding:1rem 0;position:sticky;top:0;z-index:100;box-shadow:0 1px 8px rgba(0,0,0,0.07)}
-.header-inner{width:100%;max-width:1600px;margin:0 auto;padding:0 clamp(1.5rem,5vw,5rem);display:flex;align-items:center;justify-content:space-between}
-.logo-wrap{display:flex;flex-direction:column;line-height:1}
-.logo-main{font-family:'Inter',sans-serif;font-weight:900;font-size:clamp(1.2rem,2vw,1.5rem);color:var(--teal);letter-spacing:2px;text-transform:uppercase}
-.logo-sub{font-size:0.9rem;font-weight:600;color:var(--amber);letter-spacing:4px;text-transform:uppercase;margin-top:2px}
-.logo-tagline{font-size:0.53rem;color:var(--text-muted);font-style:italic;margin-top:1px}
-.header-right{display:flex;align-items:center;gap:1.5rem}
-.since-badge{font-size:12px;color:var(--text-muted)}
+.header-inner{width:100%;max-width:1600px;margin:0 auto;padding:0 clamp(1.5rem,5vw,5rem);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+.logo-wrap{display:flex;flex-direction:column;line-height:1;flex:1}
+.logo-main{font-family:'Inter',sans-serif;font-weight:900;font-size:clamp(1.1rem,2vw,1.5rem);color:var(--teal);letter-spacing:2px;text-transform:uppercase}
+.logo-sub{font-size:0.85rem;font-weight:600;color:var(--amber);letter-spacing:4px;text-transform:uppercase;margin-top:2px}
+.logo-tagline{font-size:0.5rem;color:var(--text-muted);font-style:italic;margin-top:1px}
+.header-right{display:flex;align-items:center;gap:clamp(0.75rem,2vw,1.5rem);flex-wrap:wrap;justify-content:flex-end}
+.since-badge{font-size:clamp(10px,1vw,12px);color:var(--text-muted);white-space:nowrap}
 .since-badge strong{color:var(--teal)}
-.header-cta{background:var(--teal);color:var(--white);border:none;padding:11px 26px;border-radius:50px;font-size:14px;font-weight:700;cursor:pointer;transition:background 0.2s;font-family:'Inter',sans-serif;box-shadow:0 4px 12px rgba(15,110,86,0.25)}
+.header-cta{background:var(--teal);color:var(--white);border:none;padding:clamp(8px,1vw,11px) clamp(12px,2vw,26px);border-radius:50px;font-size:clamp(11px,1.1vw,14px);font-weight:700;cursor:pointer;transition:background 0.2s;font-family:'Inter',sans-serif;box-shadow:0 4px 12px rgba(15,110,86,0.25);white-space:nowrap}
 .header-cta:hover{background:var(--teal-light)}
 
 /* ── HERO SECTION ── */
@@ -96,12 +96,7 @@ header{background:var(--white);border-bottom:1px solid var(--border);padding:1re
 .form-group textarea{resize:vertical;min-height:72px}
 .form-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .btn-submit{width:100%;background:var(--teal);color:var(--white);border:none;padding:14px;border-radius:50px;font-size:15px;font-weight:700;cursor:pointer;margin-top:0.4rem;transition:background 0.2s;font-family:'Inter',sans-serif;box-shadow:0 4px 15px rgba(15,110,86,0.3);letter-spacing:0.2px}
-.btn-submit:disabled {
-  background: #a0c4b9; /* Faded teal */
-  cursor: not-allowed;
-  box-shadow: none;
-  transform: none;
-}
+.btn-submit:disabled{background:#a0c4b9;cursor:not-allowed;box-shadow:none;transform:none}
 .form-note{text-align:center;font-size:11px;color:var(--text-muted);margin-top:8px}
 #form-success{display:none;background:var(--teal-faint);color:var(--teal);border-radius:8px;padding:1rem;text-align:center;font-weight:500;margin-top:1rem;font-size:14px;border:1px solid var(--teal-mid)}
 
@@ -122,7 +117,7 @@ header{background:var(--white);border-bottom:1px solid var(--border);padding:1re
 .why-fact{margin-top:1rem;background:var(--teal);border-radius:10px;padding:1.1rem 1.5rem;text-align:left;font-size:clamp(0.88rem,1.1vw,0.95rem);color:#e1f5ee;line-height:1.75}
 .why-fact strong{color:#9fe1cb}
 
-/* ── PHILOSOPHY ── */
+/* ── PHILOSOPHY (RESTORED) ── */
 .philosophy{padding:clamp(3rem,5vw,5rem) 0;text-align:center;background:var(--navy-dark)}
 .philosophy-inner{max-width:820px;margin:0 auto;padding:0 clamp(1.5rem,5vw,5rem)}
 .diya{font-size:2rem;display:block;margin-bottom:0.75rem}
@@ -157,6 +152,8 @@ header{background:var(--white);border-bottom:1px solid var(--border);padding:1re
 /* ── FOOTER ── */
 footer{background:var(--navy-dark);color:#475569;text-align:center;padding:1.75rem clamp(1.5rem,5vw,5rem);font-size:12.5px;border-top:3px solid var(--teal)}
 footer strong{color:#94a3b8}
+footer a{color:var(--teal);text-decoration:none}
+footer a:hover{text-decoration:underline}
 
 /* ── RESPONSIVE ── */
 @media(max-width:1024px){
@@ -168,7 +165,6 @@ footer strong{color:#94a3b8}
   .hero-grid{grid-template-columns:1fr;gap:2rem}
   .form-card{position:static}
   .review-grid{grid-template-columns:1fr 1fr}
-  .header-cta{display:none}
   .final-cta h2{font-size:2rem}
   .illus-strip{display:none}
 }
@@ -203,7 +199,7 @@ footer strong{color:#94a3b8}
   </div>
 </div>
 
-<!-- ② HEADER -->
+<!-- ② HEADER (FIXED) -->
 <header>
   <div class="header-inner">
     <div class="logo-wrap">
@@ -211,11 +207,10 @@ footer strong{color:#94a3b8}
       <span class="logo-sub">Classes</span>
       <span class="logo-tagline">Demystifying Science, Math &amp; Physics</span>
       <span class="logo-tagline">Making them breezy, light, and easy.</span>
-
     </div>
     <div class="header-right">
       <span class="since-badge">In service since <strong>2015</strong></span>
-      <button class="header-cta" onclick="document.getElementById('contact-form').scrollIntoView({behavior:'smooth'})">Book a Cognitive Diagnostic Assessment</button>
+      <button class="header-cta" onclick="document.getElementById('contact-form').scrollIntoView({behavior:'smooth'})">Take a Complementary Assessment</button>
     </div>
   </div>
 </header>
@@ -237,15 +232,15 @@ footer strong{color:#94a3b8}
         <div class="pull-quote">
           <p>It's heart-breaking to watch your bright star get stuck.</p>
         </div>
-        <p>If your child feels stuck after entering Class 9, believe us — <strong>they are not alone.</strong> Why do brilliant middle school students suddenly hit a wall?" What changed?<p>
-<p> <strong> Well nothing, actually!!! </strong> Their subjects got deeper, but their learning methods didn't keep pace. Nothing is wrong with them. They just need a bridge to cross this new academic gap..</p>
+        <p>If your child feels stuck after entering Class 9, believe us — <strong>they are not alone.</strong> Why do brilliant middle school students suddenly hit a wall? What changed?</p>
+        <p><strong>Well nothing, actually!!!</strong> Their subjects got deeper, but their learning methods didn't keep pace. Nothing is wrong with them. They just need a bridge to cross this new academic gap.</p>
         <div class="resolution">
           <strong>That bridge is what we build.</strong><br>
           <em>We turn every "Oh No" moment into an "Aha!!" — The Vidhyaarjan Way.</em>
         </div>
       </div>
 
-      <!-- INLINE ILLUSTRATION — replaces the full-width banner -->
+      <!-- INLINE ILLUSTRATION -->
       <div class="illus-strip">
         <div class="illus-label">
           <span style="font-size:2rem;line-height:1">🌀</span>
@@ -264,10 +259,10 @@ footer strong{color:#94a3b8}
       </div>
     </div>
 
-    <!-- RIGHT: FORM -->
+    <!-- RIGHT: FORM (FIXED - removed extra closing tag) -->
     <div class="form-card" id="contact-form">
-      <h3>Book a Cognitive Diagnostic Assessment!</h3>
-      <p> ⭐ No commitment. Just a 45-minute session to uncover your child’s cognitive learning style</p>
+      <h3>Book Your Complementary Assessment!</h3>
+      <p>⭐ No commitment. Just a 45-minute session to uncover your child's cognitive learning style</p>
       
       <form id="assessment-form" name="google-sheet">
         <div class="form-group">
@@ -284,10 +279,6 @@ footer strong{color:#94a3b8}
             <label>Class</label>
             <select name="Class">
               <option value="">Select</option>
-              <!--<option value="Class 6">Class 6</option> -->
-               <!--<option value="Class 7">Class 7</option> -->
-               <!--<option value="Class 8">Class 8</option> -->
-
               <option value="Class 9">Class 9</option>
               <option value="Class 10">Class 10</option>
             </select>
@@ -307,28 +298,23 @@ footer strong{color:#94a3b8}
           <label>Parent's WhatsApp Number *</label>
           <input type="tel" id="whatsapp" name="WhatsApp" placeholder="+91 98765 43210" required/>
         </div>
-	
-	<div class="form-group">
+
+        <div class="form-group">
           <label>Email Address <span style="color:#e53e3e">*</span></label>
           <input type="email" id="emailAddress" name="EmailAddress" placeholder="e.g. parent@gmail.com" required/>
         </div>
         
         <div class="form-group">
-          <label>⭐ Tell us about your child’s learning needs (optional)</label>
+          <label>⭐ Tell us about your child's learning needs (optional)</label>
           <textarea name="LearningNeeds" placeholder="e.g. Finds concepts difficult, needs help with numericals..."></textarea>
         </div>
         
-        <!-- Button is disabled by default -->
         <button type="submit" class="btn-submit" id="submitBtn" disabled>Book Assessment →</button>
-<input type="hidden" id="leadSource" name="Source" value="Organic / Direct Website Visit">
-        
-        
-
+        <input type="hidden" id="leadSource" name="Source" value="Organic / Direct Website Visit">
       </form>
       
       <p class="form-note"><i class="ti ti-lock" style="font-size:12px;vertical-align:-1px"></i> Your details are 100% private. We'll only contact you to schedule the assessment.<br>We never share them.</p>
-      <div id="form-success">✓ We've received your enquiry! Expect a call within 24 hours.</div>
-    </div>
+      <div id="form-success">✓ We've received your assessment booking! Expect a call within 24 hours.</div>
     </div>
 
   </div>
@@ -343,7 +329,7 @@ footer strong{color:#94a3b8}
     <div class="subj-item"><span class="subj-dot"></span>NEET</div>
     <div class="subj-item"><span class="subj-dot"></span>JEE</div>
     <div class="subj-item"><span class="subj-dot"></span>Competitive Exams</div>
-<div class="subj-item"><span class="subj-dot"></span>Foundation Courses</div>
+    <div class="subj-item"><span class="subj-dot"></span>Foundation Courses</div>
   </div>
 </div>
 
@@ -361,7 +347,15 @@ footer strong{color:#94a3b8}
   </div>
 </section>
 
-
+<!-- ⑥ PHILOSOPHY (RESTORED) -->
+<section class="philosophy">
+  <div class="philosophy-inner">
+    <span class="diya">🪔</span>
+    <span class="sci-tag">Neuroplasticity-Based · Gurukul Spirit</span>
+    <h2>We build an<br><em>"Athletic Field for the Mind"</em></h2>
+    <p>We are not a tuition centre. We are a <strong>Guru–Shishya bond</strong> built on understanding, not rote — the only institution engineering cognition through scientific methods. With <strong>18 years of real-world industrial experience</strong> behind every lesson, we don't just teach equations. We show students what happens when equations meet reality — and that is what makes science unforgettable.</p>
+  </div>
+</section>
 
 <!-- ⑦ REVIEWS -->
 <section class="reviews">
@@ -407,15 +401,15 @@ footer strong{color:#94a3b8}
 <!-- ⑧ FINAL CTA -->
 <section class="final-cta">
   <h2>Let's find their hidden Einstein.</h2>
-  <p> Just One complimentary session. No pressure. Just a conversation — and maybe a spark.
-  <button class="btn-cta" onclick="document.getElementById('contact-form').scrollIntoView({behavior:'smooth'})">
-Book Your Assessment</button>
+  <p>Just One complimentary session. No pressure. Just a conversation — and maybe a spark.</p>
+  <button class="btn-cta" onclick="document.getElementById('contact-form').scrollIntoView({behavior:'smooth'})">Book Your Assessment</button>
 </section>
 
+<!-- FOOTER (FIXED - clickable phone number) -->
 <footer>
   <strong>Vidhyaarjan Classes</strong> · Since 2015<br>
   <span style="margin-top:5px;display:inline-block">© 2026 Vidhyaarjan Classes. All rights reserved.</span>
-<span style="margin-top:5px;display:inline-block"> Contact- +91-9999780721</span>
+  <span style="margin-top:5px;display:inline-block">Contact: <a href="tel:+919999780721">+91-9999780721</a></span>
 </footer>
 
 <script>
@@ -424,7 +418,7 @@ Book Your Assessment</button>
   const studentName = document.getElementById('studentName');
   const parentName = document.getElementById('parentName');
   const whatsapp = document.getElementById('whatsapp');
-  const emailAddress = document.getElementById('emailAddress'); // <-- Added Email element here
+  const emailAddress = document.getElementById('emailAddress');
   const submitBtn = document.getElementById('submitBtn');
 
   // --- Invisible Lead Tracking Logic ---
@@ -433,38 +427,34 @@ Book Your Assessment</button>
 
   // Your tracking dictionary
   const trackingDictionary = {
-      "1": "WhatsApp Broadcast - Foundation Course",
-      "2": "Facebook Ad - Board Exams Boost",
+      "1": "WhatsApp Grp Share",
+      "2": "Facebook Grp Share",
       "3": "Instagram Bio Profile Link",
       "4": "Printed Flyer - Sector 15 Faridabad",
+      "5": "Via Mahesh JJ on WhatsApp",
+      "6": "Via Amit Tundla on WhatsApp",
+      "7": "On whatsapp DM",
       "fb": "Facebook Page Organic Post",
-      "wa": "Direct WhatsApp Message",
-	  "5": "Via Mahesh JJ on WhatsApp",
-	"6": "Via Amit Tundla on WhatsApp",
-	"7": "WhatsApp DM"
+      "wa": "Direct WhatsApp Message"
   };
 
   // Catch the pointer from the URL and update the hidden field
   if (urlParams.has('ref')) {
       const pointer = urlParams.get('ref');
-      
       if (trackingDictionary[pointer]) {
           sourceInput.value = trackingDictionary[pointer];
       } else {
           sourceInput.value = "Unknown Code: " + pointer;
       }
-      
-      // MAGIC: Wipe the URL clean instantly
       window.history.replaceState(null, '', window.location.pathname);
   }
 
   // 2. Button Activation Logic
   function checkFormValidity() {
-    // FIXED: The parentheses are now correctly wrapping the entire condition
     if (studentName.value.trim() !== '' && parentName.value.trim() !== '' && whatsapp.value.trim() !== '' && emailAddress.value.trim() !== '') {
-      submitBtn.disabled = false; // Activate button
+      submitBtn.disabled = false;
     } else {
-      submitBtn.disabled = true;  // Deactivate button
+      submitBtn.disabled = true;
     }
   }
 
@@ -472,7 +462,7 @@ Book Your Assessment</button>
   studentName.addEventListener('input', checkFormValidity);
   parentName.addEventListener('input', checkFormValidity);
   whatsapp.addEventListener('input', checkFormValidity);
-  emailAddress.addEventListener('input', checkFormValidity); // <-- FIXED: Added missing listener
+  emailAddress.addEventListener('input', checkFormValidity);
 
   // 3. Google Sheets Submission Logic
   const scriptURL = 'https://script.google.com/macros/s/AKfycbyodSZ30RnGfjkpzPKcjfJjO6ZqU2nLi4LMPwrodoLTmTokZLxnc5lH24H5McaZ1hWdlw/exec'; 
@@ -485,7 +475,6 @@ Book Your Assessment</button>
     submitBtn.disabled = true;
     submitBtn.style.opacity = '0.7';
 
-    // Create the FormData object
     let requestBody = new URLSearchParams(new FormData(form));
     
     fetch(scriptURL, { 
@@ -494,18 +483,15 @@ Book Your Assessment</button>
       mode: 'no-cors' 
     })
     .then(response => {
-      // Show success message
       const successMsg = document.getElementById('form-success');
       successMsg.style.display = 'block';
       successMsg.scrollIntoView({behavior:'smooth', block:'nearest'});
       
-      // Reset form and UI
       form.reset();
       submitBtn.innerText = originalBtnText;
       submitBtn.style.opacity = '1';
       checkFormValidity(); 
       
-      // Hide success message after 5 seconds
       setTimeout(() => { successMsg.style.display = 'none'; }, 5000);
     })
     .catch(error => {
